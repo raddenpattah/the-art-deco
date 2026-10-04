@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-bg: #faf9f6;
+  --color-surface: #ffffff;
+  --color-charcoal: #121212;
+  --color-gold: #c5a059;
+  --color-muted: #5c534d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#FAF9F6] text-stone-800 antialiased;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-image: radial-gradient(circle at top, rgba(197, 160, 89, 0.08), transparent 40%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(197, 160, 89, 0.28);
+}

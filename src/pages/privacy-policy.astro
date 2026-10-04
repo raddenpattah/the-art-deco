@@ -1,0 +1,96 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const updatedOn = 'October 4, 2026';
+const contactEmail = 'hello@theartdeco.com';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Read The Art Deco privacy policy, including information about cookies, affiliate links, and privacy choices." />
+    <title>Privacy Policy | The Art Deco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#FAF9F6] font-sans text-stone-800">
+    <Header />
+    <main class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <header class="border-b border-[#d7bb72]/60 pb-8 sm:pb-10">
+        <p class="text-[10px] font-semibold uppercase tracking-[0.34em] text-[#5c534d]">Your information</p>
+        <h1 class="mt-5 font-serif text-4xl font-semibold tracking-[0.04em] text-[#121212] sm:text-6xl">Privacy Policy</h1>
+        <p class="mt-5 text-sm text-stone-500">Last updated: {updatedOn}</p>
+      </header>
+
+      <div class="divide-y divide-[#d7bb72]/40">
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Scope</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            This policy explains how The Art Deco (“we,” “us,” or “our”) may collect, use, and disclose information when you visit this website. It is intended for visitors in the United States. By using the site, you acknowledge the practices described here.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Information and use</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            If you contact us, we receive the information you choose to include, such as your name, email address, and message. The site may also receive basic technical information through your browser or hosting provider, such as an IP address, device and browser details, pages requested, and timestamps. We use information to operate and protect the site, respond to inquiries, understand site performance, and meet legal obligations.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Cookies and similar technologies</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            Cookies are small files stored by your browser. We or service providers may use cookies, pixels, or similar technologies for essential site functions, audience measurement, and to understand visits to pages or links. Third-party services and retailers may use their own technologies under their privacy policies. In particular, following an affiliate link may allow the retailer to recognize a referral and attribute a purchase.
+          </p>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            You can manage or delete cookies through your browser settings; blocking them may affect some site or third-party features. Where required by applicable law, we will provide additional choices for non-essential tracking. Browser “Do Not Track” signals are not consistently interpreted across the industry.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Affiliate links and Amazon Associates</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            Some links on this site are affiliate links. If you follow one and make a qualifying purchase, we may receive a commission at no additional cost to you. Retailers may use cookies or similar technologies to process referrals and purchases. Your interaction with a retailer is governed by that retailer’s own terms and privacy policy.
+          </p>
+          <p class="mt-4 border-l-2 border-[#c5a059] pl-4 text-sm leading-7 text-stone-700 sm:text-base sm:leading-8">
+            As an Amazon Associate I earn from qualifying purchases.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Service providers and retention</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            We may rely on hosting, analytics, email, or other vendors to operate the site. They may process information on our behalf or under their own terms, depending on the service. We retain information only for as long as reasonably needed for the purposes described here, unless a longer period is required by law.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">U.S. privacy choices</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            Depending on where you live, state privacy laws may provide rights to request access to, correction of, or deletion of certain personal information, or to opt out of certain processing. To submit a request, contact us using the address below. We may need to verify your request and will respond as required by applicable law. You may also appeal a decision by replying to our response.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Children and policy updates</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            This site is not directed to children under 13, and we do not knowingly collect their personal information. We may update this policy as our practices or legal requirements change. The updated date above indicates when revisions were made.
+          </p>
+        </section>
+
+        <section class="py-8 sm:py-10">
+          <h2 class="font-serif text-2xl font-semibold text-[#121212]">Contact</h2>
+          <p class="mt-4 text-sm leading-7 text-stone-600 sm:text-base sm:leading-8">
+            Questions or privacy requests can be sent to <a class="text-[#121212] underline decoration-[#c5a059] underline-offset-4" href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+          </p>
+        </section>
+      </div>
+      <p class="mt-6 text-xs leading-5 text-stone-500">This page provides general information and is not legal advice. Have the policy reviewed to ensure it reflects the site’s actual tools and legal obligations.</p>
+    </main>
+    <Footer />
+  </body>
+</html>
